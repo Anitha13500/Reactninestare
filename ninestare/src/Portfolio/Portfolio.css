@@ -1,0 +1,110 @@
+.page4{
+	padding-top:2rem;
+	padding-bottom:5rem;
+}
+.app{
+	margin:20px 0px 20px 0px;
+	text-align:center;
+	padding:0.9rem;
+}
+.app a{
+	text-decoration:none;
+	margin-top:3rem;
+	padding:0.7rem;
+	color:black;
+	font-weight:500;
+	font-size:1.3rem;
+}
+.app a:hover{
+	color:#eb5d1e;
+}
+.web img{
+	/* margin-top:2rem; */
+	width:100%;
+	border-radius:10px;
+}
+.web1{
+	width:100%;
+
+}
+.web1{
+	position:relative;
+	margin-top:2rem;
+}
+.web1::before{
+	content:"";
+	position:absolute;
+	width:0%;
+	background-color:#8d808080;
+	top:0px;
+	right:0px;
+	transition:all 0.5s;
+	color:white;
+	border-radius:10px;
+	}
+.web1:hover::before{
+	width:100%;
+	bottom:0px;
+}
+.cup{
+	position:absolute;
+	top:0; 
+	right:0;
+	bottom:0;
+	left:0;
+	text-align:center;
+	padding:0.5rem;
+	opacity:0;
+	border-radius:10px;
+}
+.cup:hover{
+	opacity:1;
+	transition:1s ease;
+}
+.cup h3{
+	font-size:1.7rem;
+	color:white;
+	line-height:2;
+	
+}
+.cup h5{
+	font-size:1.2rem;
+	color:white;
+}
+.appicon{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	/* padding:10px; */
+	gap:0.5rem;
+}
+
+.team-play{
+	width: 50%;
+	margin-left: 60px;
+}
+.brand{
+	display:flex;
+}
+.appicons{
+	height:40px;
+	width:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50%;
+	background-color:white;
+	margin-top:5rem; 	
+	}
+.appicons iconify-icon{
+	font-size:2rem;
+	color:orange;
+}
+.appicons:hover{
+	color:white;
+	background-color:orange;
+}
+.appicons iconify-icon:hover{
+	color:white;
+}
